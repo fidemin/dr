@@ -1,0 +1,62 @@
+hash: 696006e77fb65c23029ee2698580f632292793eb677675c036a53e80647b4a4b
+updated: 2019-03-12T19:28:15.937058+09:00
+imports:
+- name: github.com/dgrijalva/jwt-go
+  version: 3af4c746e1c248ee8491a3e0c6f7a9cd831e95f8
+- name: github.com/go-sql-driver/mysql
+  version: 72cd26f257d44c1114970e19afddcd812016007e
+- name: github.com/jinzhu/gorm
+  version: 472c70caa40267cb89fd8facb07fe6454b578626
+  subpackages:
+  - dialects/mysql
+- name: github.com/jinzhu/inflection
+  version: 04140366298a54a039076d798123ffa108fff46c
+- name: github.com/labstack/echo
+  version: 38772c686c76b501f94bd6cd5b77f5842e93b559
+  subpackages:
+  - middleware
+- name: github.com/labstack/gommon
+  version: 82ef680aef5189b68682876cf70d09daa4ac0f51
+  subpackages:
+  - bytes
+  - color
+  - log
+  - random
+- name: github.com/mattn/go-colorable
+  version: 3a70a971f94a22f2fa562ffcc7a0eb45f5daf045
+- name: github.com/mattn/go-isatty
+  version: 369ecd8cea9851e459abb67eb171853e3986591e
+- name: github.com/valyala/bytebufferpool
+  version: cdfbe9377474227bb42120c1e22fd4433e7f69bf
+- name: github.com/valyala/fasttemplate
+  version: 189f40e8adae8acb7c6c3b065d7489f187a548e4
+- name: golang.org/x/crypto
+  version: 8dd112bcdc25174059e45e07517d9fc663123347
+  subpackages:
+  - acme
+  - acme/autocert
+  - bcrypt
+  - blowfish
+- name: golang.org/x/sys
+  version: 584f3b12f43e1e55248c90e84804777009eed0a4
+  subpackages:
+  - unix
+- name: google.golang.org/appengine
+  version: 54a98f90d1c46b7731eb8fb305d2a321c30ef610
+  subpackages:
+  - cloudsql
+- name: gopkg.in/validator.v2
+  version: 135c24b11c19e52befcae2ec3fca5d9b78c4e98e
+testImports:
+- name: github.com/davecgh/go-spew
+  version: d8f796af33cc11cb798c1aaeb27a4ebc5099927d
+  subpackages:
+  - spew
+- name: github.com/pmezard/go-difflib
+  version: 5d4384ee4fb2527b0a1256a821ebfc92f91efefc
+  subpackages:
+  - difflib
+- name: github.com/stretchr/testify
+  version: ffdc059bfe9ce6a4e144ba849dbedead332c6053
+  subpackages:
+  - assert

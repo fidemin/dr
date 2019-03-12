@@ -1,0 +1,8 @@
+{
+	"name": "Yunhong",
+	"age": 12,
+	"friends": [
+		{"name": "drama1", "age":20},
+		{"name": "drama2", "age":25}
+	]
+}
